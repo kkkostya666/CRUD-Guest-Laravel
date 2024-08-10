@@ -5,7 +5,6 @@ URL: /api/guests
 Content-Type: application/json
 Тело запроса:
 json
-Копировать код
 {
   "first_name": "John",
   "last_name": "Doe",
@@ -15,7 +14,6 @@ json
 }
 Ответ:
 json
-Копировать код
 {
   "id": 1,
   "first_name": "John",
@@ -29,7 +27,6 @@ URL: /api/guests
 Метод: GET
 Ответ:
 json
-Копировать код
 [
   {
     "id": 1,
@@ -45,7 +42,6 @@ URL: /api/guests/{id}
 Метод: GET
 Ответ:
 json
-Копировать код
 {
   "id": 1,
   "first_name": "John",
@@ -61,7 +57,6 @@ URL: /api/guests/{id}
 Content-Type: application/json
 Тело запроса:
 json
-Копировать код
 {
   "first_name": "Jane",
   "last_name": "Doe",
@@ -71,7 +66,6 @@ json
 }
 Ответ:
 json
-Копировать код
 {
   "id": 1,
   "first_name": "Jane",
@@ -94,7 +88,6 @@ X-Debug-Memory — использование памяти в Кб.
 Пример:
 
 http
-Копировать код
 HTTP/1.1 200 OK
 Content-Type: application/json
 X-Debug-Time: 12ms
